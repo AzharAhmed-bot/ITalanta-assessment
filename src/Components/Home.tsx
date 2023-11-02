@@ -12,7 +12,7 @@ export default function Home(){
         // Use inline style to set the background image
         style={{
           // Set the background image URL
-          backgroundImage: "url(https://res.cloudinary.com/dyl3rncv3/image/upload/c_scale,q_90,w_2400/v1681285764/elewa-group-website/hero-Images/home-page-bg-min_jfkopo.jpg)",
+          backgroundImage: "url(https://res.cloudinary.com/dyl3rncv3/image/upload/v1679910469/elewa-group-website/hero-Images/pexels-bg-edit_bb4znx.jpg)",
         }}
       >
         <Navbar />

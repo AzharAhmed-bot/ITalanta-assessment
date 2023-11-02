@@ -26,8 +26,9 @@ type LinkListProps = {
  * @param {LinkListProps} props - The properties passed to the LinkList component.
  * @returns {JSX.Element} A JSX element that displays the list of links.
  */
-const LinkList: React.FC<LinkListProps> = ({ links, menu, handleMenu }) => (
+const LinkList: React.FC<LinkListProps> = ({ links, menu, handleMenu }: LinkListProps): JSX.Element => (
   <ul
+  //Applied Tailwind Css classes for styling the unorder list to display items in flex for larger screen and block for smaller screen
     className={`md:flex md:items-center md:pb-0 pb-12 md:static w-full md:w-auto md:pl-0 pl-9 transition-all ease-in-out duration-500 ${
       menu
         ? "left-50 opacity-100 text-center bg-black text-white"
@@ -46,8 +47,8 @@ const LinkList: React.FC<LinkListProps> = ({ links, menu, handleMenu }) => (
               : "left-[-490px] md:opacity-100 opacity-0"
           }`}
         >
-            {/*Apply Tailwind CSS classes for styling each list item*/}
-          <NavLink to={link.url} className="mr-4 hover:underline">
+            {/*Apply Tailwind CSS classes for styling each navlink item*/}
+          <NavLink to={link.url} className="mr-4 hover:underline text-white">
             {link.label}
           </NavLink>
         </li>

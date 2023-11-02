@@ -4,7 +4,7 @@
  * Imports necessary components to this file.
  */
 import { useState, useEffect } from "react";
-import { fetchData } from "./dataService";
+import { dataService } from "./dataService";
 import LinkList from "./LinkList";
 import Menu from "./Menu";
 
@@ -18,7 +18,7 @@ const Links = () => {
     const [menu, setMenu] = useState<boolean>(false);
   
     useEffect(() => {
-      fetchData("navbarLinks", setLinks);
+      dataService("navbarLinks", setLinks);
   
       // Add a window resize event listener
       window.addEventListener("resize", handleResize);

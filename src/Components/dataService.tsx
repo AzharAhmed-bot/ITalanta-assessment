@@ -7,7 +7,7 @@
  * @param setData This updates state once the data is fetched
  * @returns It returns the data once the fetch is successful
  */
-async function  fetchData(endpoint:string,setData:(data: any) => void){
+async function  dataService(endpoint:string,setData:(data: any) => void){
     try{
         const response=await fetch(`http://localhost:3000/${endpoint}`);
         if (!response.ok) {
@@ -29,4 +29,4 @@ async function  fetchData(endpoint:string,setData:(data: any) => void){
  * @exports
  * This exports the function to be used in other components
  */
-export {fetchData};
+export {dataService};

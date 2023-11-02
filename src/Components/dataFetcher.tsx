@@ -4,7 +4,7 @@
 /**
  * @imports aimed at importing neccesary files only
  */
-import { fetchData } from "./dataService";
+import { dataService } from "./dataService";
 import { useEffect } from "react";
 
 
@@ -15,6 +15,6 @@ import { useEffect } from "react";
  */
 export function DataFetcher(endpoint:string, setData: React.Dispatch<React.SetStateAction<any[]>>) {
   useEffect(() => {
-    fetchData(endpoint, setData);
+    dataService(endpoint, setData);
   }, [endpoint, setData]);
 }
