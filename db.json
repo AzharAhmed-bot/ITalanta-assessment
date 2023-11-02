@@ -34,20 +34,23 @@
         "url": "https://elewa.ke/contact"
       }
     ],
-    "sections": {
-      "invest": {
+    "sections": [
+      {
+        "id":"invest",
         "header": "Trade, not aid",
         "paragraph": "Southern innovations addressing global problems"
       },
-      "about": {
+      {
+        "id":"about",
         "header": "HOW TO RECOGNIZE AN ELEWA MEMBER",
         "paragraph": "Dependable, Creative, Supportive, Open Minded and Fun*",
         "text":"*SERIOUS WHEN IT MATTERS"
       },
-      "socialImpact": {
-        "header": "Social Impact",
-        "paragraph": "See how we're making a positive impact on society."
+       {
+        "id":"socialImpact",
+        "header": "Social Impact. Scaling impact. Beyond the norm",
+        "paragraph": "Human and Environmental Impact through Social Enterprise"
       }
-    }
+    ]
   }
   
