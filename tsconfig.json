@@ -21,7 +21,7 @@
     "noFallthroughCasesInSwitch": true
   },
   "typedocOptions":{
-    "entryPoints":["src/App.tsx","src/Components/Links.tsx"],
+    "entryPoints":["src/App.tsx"],
     "out":"docs"
   },
   "include": ["src"],
