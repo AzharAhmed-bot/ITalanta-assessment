@@ -1,3 +1,8 @@
+/**
+ * @imports This is aimed at importing the components to the navbar 
+ */
+import Navbar from "./Components/Navbar"
+
 
 
 /**
@@ -10,7 +15,7 @@ function App() {
 
   return (
     <>
-      
+      <Navbar/>
     </>
   )
 }
