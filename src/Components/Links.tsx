@@ -1,46 +1,52 @@
-//This is a child component for navbar for the links.
-
+//This component for the
 
 /**
- * @imports
- * This the import sections that imports all the necessary data
+ * Imports necessary components to this file.
  */
-import { useState,useEffect } from "react";
+import { useState, useEffect } from "react";
 import { fetchData } from "./dataService";
-import { NavLink } from "react-router-dom";
+import LinkList from "./LinkList";
+import Menu from "./Menu";
 
-
-
-/**
- * @component
- * This Link component is aimed at displaying the links in the navbar
- */
-const Links=()=>{
-    // Define a type for the link object
+const Links = () => {
     type Link = {
-        label: string;
-        url: string;
+      label: string;
+      url: string;
     };
-    //Variable used for state
-    const [links,setLinks]=useState<Link[]>([])
-
-    //This function aims at preventing endless requests to the endpoint
-    useEffect(()=>{
-        fetchData("navbarLinks",setLinks)
-    },[])
-    
-    
-   return(
-    <>
-     {links && links.map((link) => (
-        <NavLink key={link.label} to={link.url} className="">
-            {link.label}
-        </NavLink>
-))}
-    </>
-   )
-
-
-}
-
-export default Links;
+  
+    const [links, setLinks] = useState<Link[]>([]);
+    const [menu, setMenu] = useState<boolean>(false);
+  
+    useEffect(() => {
+      fetchData("navbarLinks", setLinks);
+  
+      // Add a window resize event listener
+      window.addEventListener("resize", handleResize);
+  
+      // Clean up the event listener when the component unmounts
+      return () => {
+        window.removeEventListener("resize", handleResize);
+      };
+    }, []);
+  
+    // Function to handle the window resize event
+    function handleResize() {
+      // Check the screen width and set the menu state accordingly
+      if (window.innerWidth >= 768) {
+        setMenu(false);
+      }
+    }
+  
+    function handleMenu() {
+      setMenu(!menu);
+    }
+  
+    return (
+      <>
+        <Menu menu={menu} handleMenu={handleMenu} />
+        <LinkList links={links} menu={menu} handleMenu={handleMenu} />
+      </>
+    );
+  };
+  
+  export default Links;
