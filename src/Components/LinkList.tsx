@@ -39,12 +39,14 @@ const LinkList: React.FC<LinkListProps> = ({ links, menu, handleMenu }) => (
         <li
           key={link.label}
           onClick={handleMenu}
+          // Apply Tailwind CSS classes for styling the list container
           className={`md:flex md:items-center md:pb-0 pb-8 md:static w-full md:w-auto md:pl-0 pl-9 transition-all ease-in-out duration-500 ${
             menu
               ? "left-50 opacity-100 border-b-2 border-white pb-7"
               : "left-[-490px] md:opacity-100 opacity-0"
           }`}
         >
+            {/*Apply Tailwind CSS classes for styling each list item*/}
           <NavLink to={link.url} className="mr-4 hover:underline">
             {link.label}
           </NavLink>

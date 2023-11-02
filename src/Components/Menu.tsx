@@ -27,6 +27,7 @@ type MenuProps = {
 const Menu: React.FC<MenuProps> = ({ menu, handleMenu }) => (
   <div
     onClick={handleMenu}
+    // A clickable area to handle the menu, positioned absolutely.
     className="text-3xl absolute mt-6 right-8 top-6 cursor-pointer text-black md:hidden"
   >
     {menu ? <FaTimes /> : <FaBars />}

@@ -1,7 +1,7 @@
 /**
  * @imports This is aimed at importing the components to the navbar 
  */
-import Navbar from "./Components/Navbar"
+import Home from "./Components/Home"
 
 
 
@@ -15,7 +15,7 @@ function App() {
 
   return (
     <>
-      <Navbar/>
+      <Home/>
     </>
   )
 }
