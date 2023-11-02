@@ -1,16 +1,37 @@
+
 {
     "navbarLinks": [
       {
-        "label": "Invest",
-        "url": "/invest"
+        "label": "Home",
+        "url": "https://elewa.ke"
       },
       {
-        "label": "About",
-        "url": "/about"
+        "label": "About us",
+        "url": "https://elewa.ke/about"
       },
       {
         "label": "Social Impact",
-        "url": "/social-impact"
+        "url": "https://elewa.ke/social-impact"
+      },
+      {
+        "label": "Invest",
+        "url": "https://elewa.ke/Invest"
+      },
+      {
+        "label": "Venture Labs",
+        "url": "https://elewa.ke/venture-labs"
+      },
+      {
+        "label": "Brands",
+        "url": "https://elewa.ke/brands"
+      },
+      {
+        "label": "Careers",
+        "url": "https://elewa.ke/careers"
+      },
+      {
+        "label": "Cntact",
+        "url": "https://elewa.ke/contact"
       }
     ],
     "sections": {

@@ -1,27 +1,26 @@
-# React + TypeScript + Vite
+## React Typescript Italanta Assessment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is aimed at duplicating the following Elewa websites using react ts framework;
+ 1. https://elewa.ke/social-impact
+ 2. https://elewa.ke/about
+ 3. https://elewa.ke/invest
 
-Currently, two official plugins are available:
+To start the Application you'll run the following commands;
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ ```bash
+npm install 
+npm run dev
+```
+Then Open another terminal to start the json server;
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+```bash
+ json-server --watch db.json
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+If you don't have the JSON, Install it using the following commands in Ubuntu or MacOs;
+
+```bash
+sudo npm install -g json-server
+```
+
+
