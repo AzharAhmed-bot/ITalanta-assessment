@@ -4,7 +4,7 @@
 import Home from "./Components/Home"
 import Card from "./Components/Cards"
 import Projects from './Components/Projects';
-
+import Footers from "./Components/Footer";
 
 
 /**
@@ -20,6 +20,7 @@ function App() {
       <Home/>
       <Card/>
       <Projects/>
+      <Footers/>
     </>
   )
 }

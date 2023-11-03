@@ -1,10 +1,22 @@
+//This component handles the Projects components
+
+
 import { dataService } from "./dataService";
 import { useEffect, useState } from "react";
 
+
+/**
+ * @type This type is used to define the projects data
+ */
 type projectData = {
   url: string;
 }
 
+
+/**
+ * This function is the projects that handles the state of data and stores it
+ * @returns This function returns a jsx for the images
+ */
 export default function Projects() {
   const url: string = "projects";
 
