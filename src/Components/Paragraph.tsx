@@ -28,7 +28,7 @@ type ParagraphData = {
  * @param {ParagraphProps} props - The properties for the paragraph component.
  * @returns {JSX.Element} The paragraph component.
  */
-export default function Header({ section }: ParagraphProps): JSX.Element {
+export default function Paragraph({ section }: ParagraphProps): JSX.Element {
     const [paragraphData, setParagraphData] = useState<ParagraphData | null>(null);
 
     useEffect(() => {
@@ -40,7 +40,7 @@ export default function Header({ section }: ParagraphProps): JSX.Element {
         //This tailwind classes are used to style the text of the paragraph , displaying at the center and changing font
         <div className="text-center">
             {paragraphData && (
-                <h1 className="text-white font-bold text-4xl font-[Poppins]  ml-4 font-30px  float-left mb-16">{paragraphData.paragraph}</h1>
+                <h1 className="text-white font-bold  text-5xl font-[Poppins]   font-30px  float-left mb-16">{paragraphData.paragraph}</h1>
             )}
         </div>
     );

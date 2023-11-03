@@ -27,7 +27,7 @@ type HeaderData = {
 /**
  * Functional component for rendering a header.
  *
- * @param {ParagraphProps} props - The properties for the header component.
+ * @param {HeaderProps} props - The properties for the header component.
  * @returns {JSX.Element} The header component.
  */
 export default function Header({ section }: HeaderProps) {
@@ -37,7 +37,7 @@ export default function Header({ section }: HeaderProps) {
         // Call the dataService with the appropriate endpoint to fetch header data
         dataService(section, setHeaderData);
     }, [section]); // Fetch the data when the section prop changes
-
+        console.log(headerData)
     return (
         <div className="text-center">
             {headerData && (

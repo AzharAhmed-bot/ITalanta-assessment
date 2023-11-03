@@ -2,6 +2,7 @@
  * @imports This is aimed at importing the components to the navbar 
  */
 import Home from "./Components/Home"
+import Card from "./Components/Cards"
 
 
 
@@ -16,6 +17,7 @@ function App() {
   return (
     <>
       <Home/>
+      <Card/>
     </>
   )
 }

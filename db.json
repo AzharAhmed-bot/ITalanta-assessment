@@ -51,6 +51,32 @@
         "header": "Social Impact. Scaling impact. Beyond the norm",
         "paragraph": "Human and Environmental Impact through Social Enterprise"
       }
+    ],
+    "cards":[
+        {
+            "id":1,
+            "header":"(Social) business for the win",
+            "paragraph":"With a young dynamic population that is eager to contribute to the global economy, East Africa has a lot to offer to the world. Now is the time to nurture sustainable, inclusive and scalable business. The rest will take care of itself.",
+            "url":"https://res.cloudinary.com/dyl3rncv3/image/upload/v1681306013/lady-impact_rnc9jy.jpg"
+        },
+        {
+            "id":2,
+            "header":"A cooperative mindset",
+            "paragraph":"Elewa has one shared objective; To unlock the true potential of individuals, teams, and the community. We believe strongly in the power of sharing ideas and continuously strive to grow each other and ourselves. Internally, but also within the larger communities in which we are active",
+            "url":"https://res.cloudinary.com/dyl3rncv3/image/upload/v1681308135/buffelo_i60xeu.jpg"
+        },
+        {
+            "id":3,
+            "header":"Beyond business",
+            "paragraph":"We channel a good amount of our resources into giving back. Through projects such as our coding school in Kakuma refugee camp, training teachers in pastoral Samburu and our open-source coding initiatives providing entry-level opportunities to hundreds of junior engineers These projects don't necessarily have an immediate financial return, but their impact can be tangibly measured in the long-term.",
+            "url":"https://res.cloudinary.com/dyl3rncv3/image/upload/c_scale,q_90,w_400/v1675690301/elewa-group-website/Images/IMG_0764_twyo3k.png"
+        },
+        {
+            "id":4,
+            "header":"Open knowledge",
+            "paragraph":"What we learn, we share. Through community events, open knowledge repositories, regular teaching moments (everyone a teacher) and academic partnerships. We build for today, with a lens on tomorrow.",
+            "url":"https://res.cloudinary.com/dyl3rncv3/image/upload/v1675690302/elewa-group-website/Images/unnamed_1_m3dvll.png"
+        }
     ]
   }
   
