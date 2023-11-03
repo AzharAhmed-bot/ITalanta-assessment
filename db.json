@@ -77,6 +77,24 @@
             "paragraph":"What we learn, we share. Through community events, open knowledge repositories, regular teaching moments (everyone a teacher) and academic partnerships. We build for today, with a lens on tomorrow.",
             "url":"https://res.cloudinary.com/dyl3rncv3/image/upload/v1675690302/elewa-group-website/Images/unnamed_1_m3dvll.png"
         }
+    ],
+    "statistics":[
+      {
+        "numbers":"733+",
+        "description":"People trained"
+      },
+      {
+        "numbers":"733k",
+        "description":"Careers launched"
+      },
+      {
+        "numbers":"200+",
+        "description":"Projects finished"
+      },
+      {
+        "numbers":"56",
+        "description":"Investors"
+      }
     ]
   }
   

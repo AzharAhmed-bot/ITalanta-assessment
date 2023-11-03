@@ -37,7 +37,7 @@ export default function Header({ section }: HeaderProps) {
         // Call the dataService with the appropriate endpoint to fetch header data
         dataService(section, setHeaderData);
     }, [section]); // Fetch the data when the section prop changes
-        console.log(headerData)
+  
     return (
         <div className="text-center">
             {headerData && (
