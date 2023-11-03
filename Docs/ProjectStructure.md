@@ -1,4 +1,4 @@
-## This documentation Entail the  Hierachy of My Components and Application Structure
+## This documentation Entail the  Hierachy of My Components.
 
 Apart from the overal default react file structures ,Here is a structure for the Components.
 
@@ -26,6 +26,6 @@ Apart from the overal default react file structures ,Here is a structure for the
           - FooterSection
 
 
-This is the 
+ 
 
  
