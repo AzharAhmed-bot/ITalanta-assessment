@@ -23,6 +23,10 @@ If you don't have the JSON, Install it using the following commands in Ubuntu or
 sudo npm install -g json-server
 ```
 
+# This is the Application Structurer
+You can view Application Structure [Here](https://github.com/AzharAhmed-bot/ITalanta-assessment/blob/main/Docs/ProjectStructure.md)
+
+
 ## Styling
 
 This project uses [Tailwind CSS](https://tailwindcss.com/) for styling. Tailwind CSS is a utility-first CSS framework that makes it easy to create beautiful and responsive designs. You can customize the styling by modifying the Tailwind configuration to suit your project's needs.

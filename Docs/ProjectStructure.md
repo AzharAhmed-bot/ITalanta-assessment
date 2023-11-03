@@ -23,6 +23,9 @@ Apart from the overal default react file structures ,Here is a structure for the
    - Projects
    - Footer 
             ↓
-          - FooterSection 
+          - FooterSection
+
+
+This is the 
 
  
