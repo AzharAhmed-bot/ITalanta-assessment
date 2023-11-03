@@ -25,7 +25,7 @@ type cardData = {
       <div className="w-full p-4">
         {data && data.map((datum, index) => (
             //This logic style used to bg color and style the image to the left or right based on id and 
-          <div key={index}  style={{ fontSize: '30px' }} className={`w-full mb-4 flex items-center justify-between  ${index === 0 || index === data.length - 1 ? 'flex-row-reverse bg-black text-white text-3xl p-10' : 'flex-row bg-white text-3xl'}`}>
+          <div key={index}  style={{ fontSize: '30px' }} className={`w-full mb-4 flex items-center justify-between   ${index === 0 || index === data.length - 1 ? 'flex-row-reverse bg-black text-white text-3xl p-10' : 'flex-row bg-white  text-3xl'}`}>
             {/* This styleused to  */}
             <div className="w-1/3">
               <div className="rounded-lg p-4"> 

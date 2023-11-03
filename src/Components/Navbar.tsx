@@ -15,7 +15,7 @@ import Logo from "./Logo";
 const Navbar = (): JSX.Element => {  
 
   return (
-    <div className="shadow w-full fixed top-0 left-0 z-10 border-b-2 border-white">
+    <div className="shadow w-full  top-0 left-0 z-10 border-b-2 border-white">
       {/* Container with a shadow, fixed at the top-left corner with a z-index of 10. */}
       <div className="md:flex items-center justify-between py-4">
         {/* Flex container with items centered and space justified between them, with padding. */}

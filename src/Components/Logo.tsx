@@ -1,6 +1,6 @@
 //This component is a child of Navbar aimed at displaying the logo
 
-import logo from "/home/azhar/Italanta-assessment/src/assets/Logo.png";
+import logo from "/src/assets/Logo.png";
 
 /**
  * 
@@ -12,7 +12,7 @@ export default function Logo(){
 
     return(
         // Container with font bold, text color black, and a pointer cursor. 
-        <div className="font-bold text-black cursor-pointer flex">
+        <div className="font-bold text-black cursor-pointer flex ml-10">
             <img src={logo} className="h-20" alt="" />
         </div>
         
