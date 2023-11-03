@@ -1,9 +1,9 @@
-## React Typescript Italanta Assessment
+## React Typescript Italanta Assessment Authored By Azhar Ahmed Sheikh Takoy
 
 This project is aimed at duplicating the following Elewa websites using react ts framework;
  1. https://elewa.ke/social-impact
- 2. https://elewa.ke/about
- 3. https://elewa.ke/invest
+
+For my assessment I was only able to design this single webpage as I ran out of time.
 
 To start the Application you'll run the following commands;
 
@@ -26,3 +26,8 @@ sudo npm install -g json-server
 ## Styling
 
 This project uses [Tailwind CSS](https://tailwindcss.com/) for styling. Tailwind CSS is a utility-first CSS framework that makes it easy to create beautiful and responsive designs. You can customize the styling by modifying the Tailwind configuration to suit your project's needs.
+
+## ScreenShots
+
+
+

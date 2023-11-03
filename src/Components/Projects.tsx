@@ -1,7 +1,7 @@
 //This component handles the Projects components
 
 
-import { dataService } from "./dataService";
+import { dataService } from "../dataService";
 import { useEffect, useState } from "react";
 
 

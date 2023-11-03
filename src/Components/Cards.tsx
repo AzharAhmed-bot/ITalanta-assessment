@@ -3,7 +3,7 @@
 
 import React, { useEffect, useState } from "react";
 import Statistics from "./Statistics";
-import { dataService } from "./dataService";
+import { dataService } from "../dataService";
 import CardItem from "./CardItem"; // Import the CardItem component
 
 

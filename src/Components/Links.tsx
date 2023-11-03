@@ -4,7 +4,7 @@
  * Imports necessary components to this file.
  */
 import { useState, useEffect } from "react";
-import { dataService } from "./dataService";
+import { dataService } from "../dataService";
 import LinkList from "./LinkList";
 import Menu from "./Menu";
 

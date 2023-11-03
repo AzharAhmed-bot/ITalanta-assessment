@@ -1,8 +1,6 @@
 //This component is used to display the items in the card
 
 
-
-
 /**
  * Represents the data for each card.
  */

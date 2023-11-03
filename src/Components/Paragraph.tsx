@@ -2,7 +2,7 @@
 
 
 import { useState, useEffect } from "react";
-import { dataService } from "./dataService";
+import { dataService } from "../dataService";
 
 
 /**
