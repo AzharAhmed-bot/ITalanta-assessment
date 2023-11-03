@@ -3,6 +3,7 @@
  */
 import Home from "./Components/Home"
 import Card from "./Components/Cards"
+import Projects from './Components/Projects';
 
 
 
@@ -18,6 +19,7 @@ function App() {
     <>
       <Home/>
       <Card/>
+      <Projects/>
     </>
   )
 }

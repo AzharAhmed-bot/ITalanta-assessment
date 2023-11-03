@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/* Addded this to your CSS (e.g., App.css) */
+@keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+  
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  /* Added this CSS to your component CSS file or global CSS */
+  .scrolling-images {
+    white-space: nowrap;
+    animation: scroll 20s linear infinite;
+  }
+  

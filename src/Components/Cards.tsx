@@ -33,7 +33,7 @@ export default function Card() {
   }, [section]);
 
   return (
-    <div className="flex flex-wrap bg-black">
+    <div className="flex flex-wrap bg-black rounded-3xl">
       <Statistics/>
       <CardItem data={data}/>
     </div>
