@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 
 type projectData = {
   url: string;
-}[];
+}
 
 export default function Projects() {
   const url: string = "projects";
